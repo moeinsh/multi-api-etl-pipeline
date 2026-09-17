@@ -1,0 +1,24 @@
+2026-09-17 10:51:17 | INFO    | etl | === ETL run 2026-09-17 started ===
+2026-09-17 10:51:18 | INFO    | etl.extract | World Bank metadata: 12 countries
+2026-09-17 10:51:19 | INFO    | etl.extract | World Bank population: 12 values
+2026-09-17 10:51:20 | INFO    | etl | geocoded Berlin       -> Europe/Berlin
+2026-09-17 10:51:21 | INFO    | etl | geocoded Paris        -> Europe/Paris
+2026-09-17 10:51:22 | INFO    | etl | geocoded London       -> Europe/London
+2026-09-17 10:51:23 | INFO    | etl | geocoded Tokyo        -> Asia/Tokyo
+2026-09-17 10:51:24 | INFO    | etl | geocoded Canberra     -> Australia/Sydney
+2026-09-17 10:51:25 | INFO    | etl | geocoded Ottawa       -> America/Toronto
+2026-09-17 10:51:26 | INFO    | etl | geocoded Mexico City  -> America/Mexico_City
+2026-09-17 10:51:27 | INFO    | etl | geocoded Brasilia     -> America/Sao_Paulo
+2026-09-17 10:51:28 | INFO    | etl | geocoded New Delhi    -> Asia/Kolkata
+2026-09-17 10:51:29 | INFO    | etl | geocoded Stockholm    -> Europe/Stockholm
+2026-09-17 10:51:30 | INFO    | etl | geocoded Singapore    -> Asia/Singapore
+2026-09-17 10:51:31 | INFO    | etl | geocoded Pretoria     -> Africa/Johannesburg
+2026-09-17 10:51:32 | INFO    | etl.extract | Open-Meteo forecast: 12 locations
+2026-09-17 10:51:33 | INFO    | etl.extract | Frankfurter FX: 11 rates (date 2026-09-16)
+2026-09-17 10:51:33 | INFO    | etl | transformed: 12 countries, 12 weather rows, 12 fx rows
+2026-09-17 10:51:34 | INFO    | etl.load | countries upserted: 12
+2026-09-17 10:51:34 | INFO    | etl.load | weather rows replaced for run 2026-09-17: 12
+2026-09-17 10:51:34 | INFO    | etl.load | fx rows replaced for run 2026-09-17: 12
+2026-09-17 10:51:34 | INFO    | etl.load | Excel report written: /home/hatch/workspace/freelance-demos/multi-api-etl-pipeline/data/capitals_dashboard_2026-09-17.xlsx (12 capital rows)
+2026-09-17 10:51:34 | INFO    | etl | === ETL run 2026-09-17 finished: 12 capitals in report ===
+2026-09-17 10:51:34 | INFO    | etl | no failures — all sources returned data
