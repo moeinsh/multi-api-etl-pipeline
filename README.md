@@ -86,3 +86,9 @@ docs/run-output.txt     real console log of the 2026-09-17 run
 cover.png               portfolio cover
 site-listings.md        ready-to-paste metadata for freelance sites
 ```
+
+---
+
+**Author:** Moein Shahidi — [@moeinsh](https://github.com/moeinsh)
+
+© 2026 Moein Shahidi. Released under the MIT License.
